@@ -8,8 +8,10 @@ import com.utad.entity.User;
 
 import java.util.List;
 
+//IMPORTANTE, EN EL README ESTÁ EL LINK DEL VIDEO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 public class Main {
     public static void main(String[] args) {
+
         UserDAOImpl userDAO = new UserDAOImpl();
         TicketDAOImpl ticketDAO = new TicketDAOImpl();
 
